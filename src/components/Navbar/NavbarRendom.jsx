@@ -65,14 +65,24 @@ export default function Example() {
 
   return (
     <nav className="side-container md:mt-14">
-      <Navbar className="sticky  inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
+      <Navbar className="sticky  inset-0 z-10 h-max max-w-full rounded-none py-1 px-4 lg:px-8 ">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
             href="#"
-            className="mr-4 font-style cursor-pointer py-1.5 font-bold text-xl"
+            className="mr-4 flex items-center justify-center font-style cursor-pointer py-1.5 font-bold text-xl"
           >
-            Jobs Boardbrand
+            <img
+              className="h-8 me-2"
+              src="https://vectorise.net/logo/wp-content/uploads/2019/11/Logo-Boost-e-Wallet-app.png"
+              alt=""
+            />
+            TalentBoost
+            <img
+              className="h-10 "
+              src="https://img.freepik.com/premium-vector/orange-technology-rocket-theme-logo-design-inspiration_588166-78.jpg"
+              alt=""
+            />
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
