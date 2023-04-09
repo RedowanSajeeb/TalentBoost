@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.side-container{
+  margin-left: 300px;
+  margin-right: 300px;
+}
