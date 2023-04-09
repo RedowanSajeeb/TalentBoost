@@ -2,13 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-.font-style{
-   font-family: 'Manrope', sans-serif;
+.font-style {
+  font-family: "Manrope", sans-serif;
 }
+.colorbg-Linear {
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.05) 0%,
+    rgba(152, 115, 255, 0.05) 100%
+  );
+}
+.customs-button {
+  padding: 19px 28px;
+  gap: 10px;
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  border-radius: 8px;
+  color: white;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+}
+
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (min-width: 992px) {
-  .side-container{
-  margin-left: 300px;
-  margin-right: 300px;
-}
+  .side-container {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
 }
