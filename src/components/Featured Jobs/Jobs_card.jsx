@@ -52,7 +52,7 @@ const Jobs_card = ({ job}) => {
           <Button
             variant="gradient"
             size="sm"
-            className="hidden btn-clr lg:inline-block"
+            className=" mt-3 btn-clr lg:inline-block"
           >
             <span className="font-style">View Details</span>
           </Button>

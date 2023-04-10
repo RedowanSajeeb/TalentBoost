@@ -13,7 +13,15 @@ const Featured_Jobs = () => {
            .then((data) => setJobs(data.jobs.slice(0, 4)));
        }, []);
 
-// console.log(jobs);
+/* ---see-morebnt-data-load
+ */
+const seeAllJobsButton =() =>{
+    fetch("featured-jobs.json")
+    .then(res => res.json())
+    .then(data => setJobs(data.jobs));
+}
+
+
     return (
       <div className="side-container">
         <h1 className="text-center mb-2 text-3xl font-bold">Featured Jobs</h1>
@@ -27,15 +35,15 @@ const Featured_Jobs = () => {
             <Jobs_card job={job} key={job.id}></Jobs_card>
           ))}
         </div>
-        <div className='mb-10 flex items-center'>
+        <h1 onClick={()=>seeAllJobsButton()} className='mb-10 text-center'>
           <Button
             variant="gradient"
             size="lg"
-            className="hidden btn-clr lg:inline-block"
+            className=" btn-clr lg:inline-block"
           >
             <span className="font-style">See All Jobs</span>
           </Button>
-        </div>
+        </h1>
       </div>
     );
 };
