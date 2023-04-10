@@ -9,7 +9,6 @@ const SectionHome = () => {
         <div className="colorbg-Linear md:py-20 py-5">
           <Header></Header>
         </div>
-
         <JobCategoryList></JobCategoryList>
       </div>
     );
