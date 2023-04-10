@@ -43,8 +43,8 @@ font-size: 60px;
 background-clip: text;
 
 }
-.card-style-short{
- background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+.short-cart{
+  background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
 border-radius: 8px;
 
 }
@@ -66,5 +66,10 @@ line-height: 100px;
 }
 .w{
   width: 519px;
+}
+.card-style-short{
+ background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+border-radius: 8px;
+
 }
 }
