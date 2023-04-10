@@ -64,8 +64,8 @@ export default function Example() {
   );
 
   return (
-    <nav className="side-container md:mt-14">
-      <Navbar className="sticky  inset-0 z-10 h-max max-w-full rounded-none py-1 px-4 lg:px-8 ">
+    <nav className="side-container  md:mt-14">
+      <Navbar className="sticky   inset-0 z-10 h-max max-w-full rounded-none py-1 px-4 lg:px-8 ">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
