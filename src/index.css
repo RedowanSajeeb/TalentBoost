@@ -28,7 +28,7 @@
   background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
 }
 .big-tital {
-  width: 100%;
+  width: auto;
   height: auto;
   font-family: "Manrope";
   font-style: normal;
@@ -51,10 +51,10 @@
 }
 
 /* On screens that are 992px or less, set the background color to blue */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1280px) {
   .side-container {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
   .big-tital {
     width: 570px;

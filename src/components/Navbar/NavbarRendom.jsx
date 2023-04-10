@@ -27,6 +27,16 @@ export default function Example() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center font-style">
+          Home
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
+        <a href="#" className="flex items-center font-style">
           Statistics
         </a>
       </Typography>
@@ -48,16 +58,6 @@ export default function Example() {
       >
         <a href="#" className="flex items-center font-style">
           Blog
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center font-style">
-          Docs
         </a>
       </Typography>
     </ul>
