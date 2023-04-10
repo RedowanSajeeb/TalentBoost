@@ -7,7 +7,7 @@ const JobCategoryList = () => {
         .then((res) => res.json())
         .then((data) => setLIst(data.categories));
     }, []);
-console.log(list);
+// console.log(list);
     return (
       <div className="side-container md:mt-32 mt-10 mb-32">
         <h1 className="text-center mb-2 text-3xl font-bold">

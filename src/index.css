@@ -24,29 +24,30 @@
   font-weight: 800;
   font-size: 20px;
 }
-.btn-clr{
+.btn-clr {
   background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
 }
-.big-tital{
+.big-tital {
   width: 100%;
-height: auto;
-  font-family: 'Manrope';
-font-style: normal;
-font-weight: 800;
-font-size: 60px;
-
+  height: auto;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
 }
-.span{
-  background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-
+.span {
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
-.short-cart{
-  background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
-border-radius: 8px;
-
+.short-cart {
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.1) 0%,
+    rgba(152, 115, 255, 0.1) 100%
+  );
+  border-radius: 8px;
 }
 
 /* On screens that are 992px or less, set the background color to blue */
@@ -55,21 +56,24 @@ border-radius: 8px;
     margin-left: 300px;
     margin-right: 300px;
   }
-  .big-tital{
-  width: 570px;
-height: 300px;
-  font-family: 'Manrope';
-font-style: normal;
-font-weight: 800;
-font-size: 80px;
-line-height: 100px;
-}
-.w{
-  width: 519px;
-}
-.card-style-short{
- background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
-border-radius: 8px;
-
-}
+  .big-tital {
+    width: 570px;
+    height: 300px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 100px;
+  }
+  .w {
+    width: 519px;
+  }
+  .card-style-short {
+    background: linear-gradient(
+      90deg,
+      rgba(126, 144, 254, 0.05) 0%,
+      rgba(152, 115, 255, 0.05) 100%
+    );
+    border-radius: 8px;
+  }
 }
