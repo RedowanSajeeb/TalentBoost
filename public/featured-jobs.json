@@ -1,0 +1,149 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "company_logo": "https://example.com/logo1.png",
+      "job_title": "Software Engineer",
+      "company_name": "ABC Inc.",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$100,000 - $120,000",
+      "job_description": "We are seeking a talented software engineer to join our team and help us build high-quality, scalable, and secure software applications.",
+      "job_responsibility": "Collaborate with product managers and designers to understand requirements, write clean, efficient, and well-documented code, and participate in code reviews and team meetings.",
+      "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+      "experiences": "At least 5 years of experience in software development, proficient in one or more programming languages such as Java, Python, or Ruby.",
+      "contact_information": {
+        "phone": "555-1234",
+        "email": "jobs@abcinc.com"
+      }
+    },
+    {
+      "id": 2,
+      "company_logo": "https://example.com/logo3.png",
+      "job_title": "Data Analyst",
+      "company_name": "123 Corporation",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, CA",
+      "fulltime_or_parttime": "Fulltime",
+      "salary": "$70,000 - $90,000",
+      "job_description": "We are seeking a Data Analyst to join our team...",
+      "job_responsibility": "Analyze and interpret data...",
+      "educational_requirements": "Bachelor's or higher degree in Statistics or related field",
+      "experiences": "2+ years of experience in data analysis",
+      "contact_information": {
+        "phone": "555-123-4567",
+        "email": "jobs@123corp.com"
+      }
+    },
+    {
+      "id": 3,
+      "company_logo": "https://example.com/logo2.png",
+      "job_title": "Android App Developer",
+      "company_name": "ABC Corp.",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$90,000 - $110,000",
+      "job_description": "We are seeking an experienced Android app developer to join our team and help us build amazing apps that delight our users.",
+      "job_responsibility": "Design and develop Android apps, collaborate with designers and other developers, write clean and maintainable code, test and debug apps, and publish apps to the Google Play Store.",
+      "educational_requirements": "Bachelor's degree in Computer Science or a related field",
+      "experiences": "3+ years of experience in Android app development",
+      "contact_information": {
+        "phone": "555-5678",
+        "email": "jobs@abccorp.com"
+      }
+    },
+    {
+      "id": 4,
+      "company_logo": "https://example.com/logo1.png",
+      "job_title": "Marketing Coordinator",
+      "company_name": "ABC Inc.",
+      "remote_or_onsite": "Onsite",
+      "location": "New York City",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$50,000 - $60,000",
+      "job_description": "We are seeking a creative and organized marketing coordinator to join our team and assist in the planning, execution, and analysis of marketing campaigns.",
+      "job_responsibility": "Assist in the development and implementation of marketing strategies, create and manage content for social media and email campaigns, and track and analyze campaign metrics.",
+      "educational_requirements": "Bachelor's degree in Marketing, Communications, or related field.",
+      "experiences": "At least 2 years of experience in marketing or related field, proficient in social media platforms and email marketing tools.",
+      "contact_information": {
+        "phone": "555-1234",
+        "email": "jobs@abcinc.com"
+      }
+    },
+      {
+      "id": 5,
+      "company_logo": "https://example.com/logo2.png",
+      "job_title": "Backend Developer",
+      "company_name": "XYZ Corp.",
+      "remote_or_onsite": "Remote",
+      "location": "Anywhere",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$100,000 - $120,000",
+      "job_description": "We are seeking a highly skilled backend developer to join our team and help us build scalable, secure, and high-performance server-side applications.",
+      "job_responsibility": "Design and implement server-side APIs, write clean, efficient, and well-documented code, and troubleshoot and debug software issues.",
+      "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+      "experiences": "At least 5 years of experience in backend development, proficient in one or more backend languages such as Python, Java, or Node.js.",
+      "contact_information": {
+        "phone": "555-5678",
+        "email": "jobs@xyzcorp.com"
+      }
+    },
+    {
+      "id": 6,
+      "company_logo": "https://example.com/logo1.png",
+      "job_title": "Frontend Developer",
+      "company_name": "ABC Inc.",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$90,000 - $110,000",
+      "job_description": "We are looking for a talented frontend developer to join our team and help us build high-quality, responsive web applications.",
+      "job_responsibility": "Collaborate with designers and backend developers to implement website designs, write clean, efficient, and well-documented code, and ensure cross-browser compatibility.",
+      "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+      "experiences": "At least 3 years of experience in frontend development, proficient in HTML, CSS, and JavaScript.",
+      "contact_information": {
+        "phone": "555-1234",
+        "email": "jobs@abcinc.com"
+      }
+    },
+    {
+      "id": 7,
+      "company_logo": "https://example.com/logo3.png",
+      "job_title": "Graphic Designer",
+      "company_name": "PQR Design",
+      "remote_or_onsite": "Onsite",
+      "location": "Los Angeles",
+      "fulltime_or_parttime": "Part-time",
+      "salary": "$25 - $30 per hour",
+      "job_description": "We are looking for a talented graphic designer to join our team and help us create engaging and visually appealing designs.",
+      "job_responsibility": "Design and create visual elements for print and digital media, collaborate with other designers and stakeholders to develop concepts and ideas, and stay up-to-date with design trends and technologies.",
+      "educational_requirements": "Associate or Bachelor's degree in Graphic Design or related field.",
+      "experiences": "At least 1 year of experience in graphic design or related field, proficient in design software such as Adobe Photoshop, Illustrator, and InDesign.",
+      "contact_information": {
+        "phone": "555-9012",
+        "email": "jobs@pqrdesign.com"
+      }
+    },
+    {
+      "id": 8,
+      "company_logo": "https://example.com/logo3.png",
+      "job_title": "Data Scientist",
+      "company_name": "PQR Analytics",
+      "remote_or_onsite": "Remote",
+      "location": "Anywhere",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "90,000 - 110,000 USD",
+      "job_description": "We are looking for a data scientist to join our team and help us analyze and derive insights from complex data sets.",
+      "job_responsibility": "Design and implement statistical models, analyze and interpret data, collaborate with stakeholders.",
+      "educational_requirements": "Master's degree in Statistics, Mathematics or related field.",
+      "experiences": "At least 3 years of experience in data science or related field.",
+      "contact_information": {
+        "phone": "+1-555-9012",
+        "email": "jobs@pqranalytics.com"
+      }
+    }
+
+  ]
+}
