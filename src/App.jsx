@@ -11,7 +11,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App colorbg-Linear pt-5 pb-5">
+    <div className="App colorbg-Linear pt-5 ">
       <NavbarRendom></NavbarRendom>
       <Outlet></Outlet>
     </div>

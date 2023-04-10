@@ -89,9 +89,9 @@ export default function Example() {
             <Button
               variant="gradient"
               size="sm"
-              className="hidden lg:inline-block"
+              className="hidden btn-clr lg:inline-block"
             >
-              <span className="font-style">Buy Now</span>
+              <span className="font-style   ">Buy Now</span>
             </Button>
             <IconButton
               variant="text"
@@ -134,8 +134,13 @@ export default function Example() {
         </div>
         <MobileNav open={openNav}>
           {navList}
-          <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <span className="font-style">Buy Now</span>
+          <Button
+            variant="gradient"
+            size="sm"
+            fullWidth
+            className="mb-2 btn-clr"
+          >
+            <span className="font-style ">Buy Now</span>
           </Button>
         </MobileNav>
       </Navbar>

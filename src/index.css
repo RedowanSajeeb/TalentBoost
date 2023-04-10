@@ -12,6 +12,7 @@
     rgba(152, 115, 255, 0.05) 100%
   );
 }
+
 .customs-button {
   padding: 19px 28px;
   gap: 10px;
@@ -23,6 +24,25 @@
   font-weight: 800;
   font-size: 20px;
 }
+.btn-clr{
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+}
+.big-tital{
+  width: 100%;
+height: auto;
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+
+}
+.span{
+  background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (min-width: 992px) {
@@ -30,4 +50,16 @@
     margin-left: 300px;
     margin-right: 300px;
   }
+  .big-tital{
+  width: 570px;
+height: 300px;
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 80px;
+line-height: 100px;
+}
+.w{
+  width: 519px;
+}
 }
