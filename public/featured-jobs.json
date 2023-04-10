@@ -2,7 +2,7 @@
   "jobs": [
     {
       "id": 1,
-      "company_logo": "https://example.com/logo1.png",
+      "company_logo": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1509749891/uoobxv6izqaedbxbnsyc.jpg",
       "job_title": "Software Engineer",
       "company_name": "ABC Inc.",
       "remote_or_onsite": "Onsite",
@@ -20,7 +20,7 @@
     },
     {
       "id": 2,
-      "company_logo": "https://example.com/logo3.png",
+      "company_logo": "https://scontent.fdac13-1.fna.fbcdn.net/v/t39.30808-6/280306310_1998298977033325_3767324640430486035_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFe39xn6b35G27MKDM_IBZMlKZxc8W2-3yUpnFzxbb7fKT_8QZ1Lg0qsyD6ObkYTa05gDHz20tOA_XAizJhFPMz&_nc_ohc=D_w_R9SCiMcAX_16lPW&_nc_ht=scontent.fdac13-1.fna&oh=00_AfCK8Jm8G-dTvGxX3ltblseANUfh4IjrkLCswRGwo25hXw&oe=64382F3B",
       "job_title": "Data Analyst",
       "company_name": "123 Corporation",
       "remote_or_onsite": "Onsite",
@@ -38,7 +38,7 @@
     },
     {
       "id": 3,
-      "company_logo": "https://example.com/logo2.png",
+      "company_logo": "https://i.pinimg.com/originals/46/c5/d8/46c5d8630eb4135dd94a82b39bcf0c6c.gif",
       "job_title": "Android App Developer",
       "company_name": "ABC Corp.",
       "remote_or_onsite": "Onsite",
@@ -56,7 +56,7 @@
     },
     {
       "id": 4,
-      "company_logo": "https://example.com/logo1.png",
+      "company_logo": "https://d10d02tod5sfve.cloudfront.net/poster-photo/2678875-1843774-1674605671064.png",
       "job_title": "Marketing Coordinator",
       "company_name": "ABC Inc.",
       "remote_or_onsite": "Onsite",
@@ -74,7 +74,7 @@
     },
       {
       "id": 5,
-      "company_logo": "https://example.com/logo2.png",
+      "company_logo": "https://www.mmaglobal.com/files/styles/member_logo_large/public/logos/xyzcorporatepro.png?itok=ehOUsiQj",
       "job_title": "Backend Developer",
       "company_name": "XYZ Corp.",
       "remote_or_onsite": "Remote",
@@ -92,7 +92,7 @@
     },
     {
       "id": 6,
-      "company_logo": "https://example.com/logo1.png",
+      "company_logo": "https://t4.ftcdn.net/jpg/05/37/30/13/360_F_537301346_O0Hz0IkPNdoGxI0sCPD0m3yR815dSdIK.jpg",
       "job_title": "Frontend Developer",
       "company_name": "ABC Inc.",
       "remote_or_onsite": "Onsite",
@@ -110,7 +110,7 @@
     },
     {
       "id": 7,
-      "company_logo": "https://example.com/logo3.png",
+      "company_logo": "https://t3.ftcdn.net/jpg/05/81/45/76/360_F_581457678_Dt5aekybfOLHPPSyKwttEhJL2lyylyRm.jpg",
       "job_title": "Graphic Designer",
       "company_name": "PQR Design",
       "remote_or_onsite": "Onsite",
@@ -128,7 +128,7 @@
     },
     {
       "id": 8,
-      "company_logo": "https://example.com/logo3.png",
+      "company_logo": "https://ww1.freelogovectors.net/wp-content/uploads/2022/03/azure_synapse_analytics_logo_freelogovectors.net_.png",
       "job_title": "Data Scientist",
       "company_name": "PQR Analytics",
       "remote_or_onsite": "Remote",

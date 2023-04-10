@@ -91,7 +91,7 @@ export default function Example() {
               size="sm"
               className="hidden btn-clr lg:inline-block"
             >
-              <span className="font-style   ">Star Applying</span>
+              <span className="font-style">Star Applying</span>
             </Button>
             <IconButton
               variant="text"

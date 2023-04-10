@@ -8,10 +8,10 @@ const Featured_Jobs = () => {
        useEffect(() => {
          fetch("featured-jobs.json")
            .then((res) => res.json())
-           .then((data) => setJobs(data.jobs));
+           .then((data) => setJobs(data.jobs.slice(0, 4)));
        }, []);
 
-console.log(jobs);
+// console.log(jobs);
     return (
       <div className="side-container">
         <h1 className="text-center mb-2 text-3xl font-bold">Featured Jobs</h1>
