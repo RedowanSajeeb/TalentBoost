@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Jobs_card from './Jobs_card';
-
+import {
+  Button
+} from "@material-tailwind/react";
 const Featured_Jobs = () => {
 
 
@@ -20,16 +22,20 @@ const Featured_Jobs = () => {
           need. Its your future
         </h6>
         {/* ------------------- */}
-        {
-        
-        jobs.map((job) => <Jobs_card
-        job={job}
-        key={job.id}
-        ></Jobs_card>)
-        
-        
-        
-        }
+        <div className="md:grid grid-cols-2 mb-10">
+          {jobs.map((job) => (
+            <Jobs_card job={job} key={job.id}></Jobs_card>
+          ))}
+        </div>
+        <div className='mb-10 flex items-center'>
+          <Button
+            variant="gradient"
+            size="lg"
+            className="hidden btn-clr lg:inline-block"
+          >
+            <span className="font-style">See All Jobs</span>
+          </Button>
+        </div>
       </div>
     );
 };

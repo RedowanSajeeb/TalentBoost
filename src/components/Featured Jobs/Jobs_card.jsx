@@ -29,32 +29,34 @@ const Jobs_card = ({ job}) => {
     } = job;
     // console.log(job_title);
     return (
-      <div>
-        <img className="h-10" src={company_logo} alt="" />
-        <h3>{job_title}</h3>
-        <h4>{company_name}</h4>
-        <div>
-          <h3>{remote_or_onsite}</h3>
-          <h3>{fulltime_or_parttime}</h3>
-        </div>
-        <div>
+      <div className="border rounded-lg gap-10 m-6">
+        <div className="ms-5 py-5 ">
+          <img className="h-10" src={company_logo} alt="" />
+          <h3>{job_title}</h3>
+          <h4>{company_name}</h4>
           <div>
-            <img src="" alt="" />
-            <h3>{location}</h3>
+            <h3>{remote_or_onsite}</h3>
+            <h3>{fulltime_or_parttime}</h3>
           </div>
           <div>
-            <img src="" alt="" />
-            <h3>{salary}</h3>
+            <div>
+              <img src="" alt="" />
+              <h3>{location}</h3>
+            </div>
+            <div>
+              <img src="" alt="" />
+              <h3>{salary}</h3>
+            </div>
           </div>
+          {/* Button */}
+          <Button
+            variant="gradient"
+            size="sm"
+            className="hidden btn-clr lg:inline-block"
+          >
+            <span className="font-style">View Details</span>
+          </Button>
         </div>
-        {/* Button */}
-        <Button
-          variant="gradient"
-          size="sm"
-          className="hidden btn-clr lg:inline-block"
-        >
-          <span className="font-style">View Details</span>
-        </Button>
       </div>
     );
 };
