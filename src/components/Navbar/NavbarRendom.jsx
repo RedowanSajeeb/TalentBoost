@@ -91,7 +91,7 @@ export default function Example() {
               size="sm"
               className="hidden btn-clr lg:inline-block"
             >
-              <span className="font-style   ">Buy Now</span>
+              <span className="font-style   ">Star Applying</span>
             </Button>
             <IconButton
               variant="text"
@@ -140,7 +140,7 @@ export default function Example() {
             fullWidth
             className="mb-2 btn-clr"
           >
-            <span className="font-style ">Buy Now</span>
+            <span className="font-style ">Star Applying</span>
           </Button>
         </MobileNav>
       </Navbar>

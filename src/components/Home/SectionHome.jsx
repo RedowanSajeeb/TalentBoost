@@ -3,6 +3,7 @@ import Header from './Header';
 import { Outlet } from 'react-router-dom';
 import JobCategoryList from '../Job-Category-List/JobCategoryList';
 
+
 const SectionHome = () => {
     return (
       <div className="">
@@ -10,6 +11,7 @@ const SectionHome = () => {
           <Header></Header>
         </div>
         <JobCategoryList></JobCategoryList>
+        
       </div>
     );
 };
