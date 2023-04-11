@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, Route, RouterProvider } from "react-router-dom";
 import Header from './components/Home/Header';
 import SectionHome from './components/Home/SectionHome';
+import ViewDetails from './components/View_Details/ViewDetails';
 
 const router = createBrowserRouter([
   {
@@ -12,13 +13,17 @@ const router = createBrowserRouter([
     element: <App></App>,
     children: [
       {
-        path:"/",
+        path: "/",
         element: <SectionHome></SectionHome>,
-      
-      }
-    ]
-  }
-])
+      },
+      {
+        path: `/ViewDetails/:id`,
+        element: <ViewDetails></ViewDetails>,
+        loader: ({ params }) => fetch(`/featured-jobs.json`),
+      },
+    ],
+  },
+]);
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

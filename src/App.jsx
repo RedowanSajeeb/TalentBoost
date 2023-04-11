@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App ">
-      <div className="pt-5 colorbg-Linear sm:pb-10 ">
+      <div className="pt-5 colorbg-Linear sm:pb-20 ">
         <NavbarRendom></NavbarRendom>
       </div>
      

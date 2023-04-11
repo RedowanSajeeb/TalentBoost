@@ -7,6 +7,7 @@ import {
   IconButton,
   Card,
 } from "@material-tailwind/react";
+import { Link } from 'react-router-dom';
 
 // ----------
 const Jobs_card = ({ job}) => {
@@ -28,6 +29,7 @@ const Jobs_card = ({ job}) => {
       contact_information,
     } = job;
     // console.log(job_title);
+
     return (
       <div className="border rounded-lg gap-10 m-6">
         <div className="ms-5 py-5 ">
@@ -49,13 +51,15 @@ const Jobs_card = ({ job}) => {
             </div>
           </div>
           {/* Button */}
-          <Button
-            variant="gradient"
-            size="sm"
-            className=" mt-3 btn-clr lg:inline-block"
-          >
-            <span className="font-style">View Details</span>
-          </Button>
+          <Link to={`/ViewDetails/${id}`}>
+            <Button
+              variant="gradient"
+              size="sm"
+              className=" mt-3 btn-clr lg:inline-block"
+            >
+              <span className="font-style">View Details</span>
+            </Button>
+          </Link>
         </div>
       </div>
     );
