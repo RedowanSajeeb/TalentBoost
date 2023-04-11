@@ -8,6 +8,7 @@ import SectionHome from './components/Home/SectionHome';
 import ViewDetails from './components/View_Details/ViewDetails';
 import AppliedJobs from './components/Applied-Jobs/AppliedJobs';
 import AssinStatistics from './components/Statistics/AssinStatistics';
+import FaqComponent from './components/FaqComponent/FaqComponent';
 
 const router = createBrowserRouter([
   {
@@ -30,8 +31,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/Statistics",
-       element: <AssinStatistics></AssinStatistics>
-      }
+        element: <AssinStatistics></AssinStatistics>,
+      },
+      {
+        path: "Blog",
+        element: <FaqComponent></FaqComponent>,
+      },
     ],
   },
 ]);

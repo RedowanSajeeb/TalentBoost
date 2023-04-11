@@ -57,7 +57,7 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center font-style">
+        <a href="/Blog" className="flex items-center font-style">
           Blog
         </a>
       </Typography>
