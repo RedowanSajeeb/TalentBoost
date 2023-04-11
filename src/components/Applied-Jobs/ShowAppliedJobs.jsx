@@ -1,24 +1,37 @@
 import React from "react";
-
+import {
+  Button
+} from "@material-tailwind/react";
+import { Link } from "react-router-dom";
 const ShowAppliedJobs = ({ job }) => {
   return (
-    <div>
+    <div className="side-container mt-5 flex items-center justify-evenly ">
       {job.map((j) => (
         <div key={j.id}>
           <img className="h-10" src={j.company_logo} alt="Company logo" />
           <h1>{j.job_title}</h1>
           <h2>{j.company_name}</h2>
-          <p>Location: {j.location}</p>
-          <p>Remote or Onsite: {j.remote_or_onsite}</p>
-          <p>Full-time or Part-time: {j.fulltime_or_parttime}</p>
-          <p>Salary: {j.salary}</p>
-          <p>Job Description: {j.job_description}</p>
-          <p>Job Responsibility: {j.job_responsibility}</p>
-          <p>Educational Requirements: {j.educational_requirements}</p>
-          <p>Experience: {j.experiences}</p>
-          {/* <p>Contact Information: {j.contact_information}</p> */}
+          <div className="flex gap-5">
+            <p>{j.remote_or_onsite}</p>
+            <p> {j.fulltime_or_parttime}</p>
+          </div>
+          <div className="flex gap-5">
+            <p> {j.location}</p>
+            <p>{j.salary}</p>
+          </div>
         </div>
       ))}
+      <div>
+        <Link >
+          <Button
+            variant="gradient"
+            size="sm"
+            className=" mt-3 btn-clr lg:inline-block"
+          >
+            <span className="font-style">View Details</span>
+          </Button>
+        </Link>
+      </div>
     </div>
   );
 };
