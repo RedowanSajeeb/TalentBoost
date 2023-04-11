@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import Banner from '../CommonBanar/Banner';
-
+import { Button } from "@material-tailwind/react";
 const ViewDetails = () => {
  const featuredJobs = useLoaderData();
 const job = featuredJobs.jobs
@@ -28,8 +28,67 @@ const {
     return (
       <>
         <Banner></Banner>
-        <div className="side-container">
-          <h1>{job_title}</h1>
+        <div className="side-container md:grid grid-cols-2 md:mt-32 ">
+          <div>
+            <h3>
+              <span>Job Description:</span> {job_description}
+            </h3>
+            <h3>
+              <span>Job Responsibility:</span> {job_responsibility}
+            </h3>
+            <h3>
+              <span>Educational Requirements:</span> <br />{" "}
+              {educational_requirements}
+            </h3>
+            <h3>
+              <span>Experiences:</span> <br /> {experiences}
+            </h3>
+          </div>
+          {/* Job Details-card */}
+          <div className="md:w-96   md:ms-10 ">
+            <div className="colorbg-Linear rounded-md py-7 px-7">
+              <h2>Job Details</h2> <hr />
+              <div>
+                <img src="" alt="" />
+                <h2>
+                  <span>Salary :</span> {salary}
+                </h2>
+              </div>
+              <div>
+                <img src="" alt="" />
+                <h2>
+                  <span>Job Title :</span> {salary}
+                </h2>
+              </div>
+              <h2>Contact Information</h2> <hr />
+              <div>
+                <img src="" alt="" />
+                <h2>
+                  <span>Phone :{contact_information.phone}</span>
+                </h2>
+              </div>
+              <div>
+                <img src="" alt="" />
+                <h2>
+                  <span>Email :{contact_information.email}</span>
+                </h2>
+              </div>
+              <div>
+                <img src="" alt="" />
+                <h2>
+                  <span>Address :{location}</span>
+                </h2>
+              </div>
+            </div>
+            {/* bnt-------- */}
+            <Button
+              variant="gradient"
+              size="lg"
+              className=" mt-5 w-full btn-clr lg:inline-block"
+            >
+              <span className="font-style">Apply Now</span>
+            </Button>
+          </div>
         </div>
       </>
     );
