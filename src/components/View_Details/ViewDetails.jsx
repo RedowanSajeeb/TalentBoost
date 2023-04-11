@@ -45,11 +45,11 @@ const applyNowOnClick = (id)=>{
               <span>Job Responsibility:</span> {job_responsibility}
             </h3>
             <h3>
-              <span>Educational Requirements:</span> <br />{" "}
+              <span>Educational Requirements: </span> <br />{" "}
               {educational_requirements}
             </h3>
             <h3>
-              <span>Experiences:</span> <br /> {experiences}
+              <span>Experiences: </span> <br /> {experiences}
             </h3>
           </div>
           {/* Job Details-card */}
@@ -59,32 +59,32 @@ const applyNowOnClick = (id)=>{
               <div>
                 <img src="" alt="" />
                 <h2>
-                  <span>Salary :</span> {salary}
+                  <span>Salary : </span> {salary}
                 </h2>
               </div>
               <div>
                 <img src="" alt="" />
                 <h2>
-                  <span>Job Title :</span> {salary}
+                  <span>Job Title : </span> {job_title}
                 </h2>
               </div>
               <h2>Contact Information</h2> <hr />
               <div>
                 <img src="" alt="" />
                 <h2>
-                  <span>Phone :{contact_information.phone}</span>
+                  <span>Phone : {contact_information.phone}</span>
                 </h2>
               </div>
               <div>
                 <img src="" alt="" />
                 <h2>
-                  <span>Email :{contact_information.email}</span>
+                  <span>Email : {contact_information.email}</span>
                 </h2>
               </div>
               <div>
                 <img src="" alt="" />
                 <h2>
-                  <span>Address :{location}</span>
+                  <span>Address : {location}</span>
                 </h2>
               </div>
             </div>

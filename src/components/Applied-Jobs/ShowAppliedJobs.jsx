@@ -5,7 +5,7 @@ import {
 import { Link } from "react-router-dom";
 const ShowAppliedJobs = ({ job }) => {
   return (
-    <div className="side-container mt-5 flex items-center justify-evenly ">
+    <div className="side-container mt-5 flex  justify-between md:ms-80 items-center ">
       {job.map((j) => (
         <div key={j.id}>
           <img className="h-10" src={j.company_logo} alt="Company logo" />
@@ -21,16 +21,21 @@ const ShowAppliedJobs = ({ job }) => {
           </div>
         </div>
       ))}
-      <div>
-        <Link >
-          <Button
-            variant="gradient"
-            size="sm"
-            className=" mt-3 btn-clr lg:inline-block"
-          >
-            <span className="font-style">View Details</span>
-          </Button>
-        </Link>
+      {/* ------------------------------- */}
+      <div className="md:me-52">
+        {job.map((j) => (
+          <div key={j.id}>
+            <Link to={`/ViewDetails/${j.id}`}>
+              <Button
+                variant="gradient"
+                size="sm"
+                className=" mt-3 btn-clr lg:inline-block"
+              >
+                <span className="font-style">View Details</span>
+              </Button>
+            </Link>
+          </div>
+        ))}
       </div>
     </div>
   );
