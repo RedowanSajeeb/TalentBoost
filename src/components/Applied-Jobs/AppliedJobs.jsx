@@ -25,7 +25,7 @@ const AppliedJobs = () => {
   };
 
   const onSiteOption = () => {
-    const filtered = jobs.filter((job) => job.remote_or_onsite !== "Remote");
+    const filtered = jobs.filter((job) => job.remote_or_onsite == "Onsite");
     setFilteredJobs(filtered);
   };
 
@@ -44,12 +44,9 @@ const AppliedJobs = () => {
 
       <div className="w-72 absolute right-96">
         <Select className="" label="Filter By">
-          <button onClick={() => remoteOption()} className="ms-2 me-3">
-            <Option>remote option</Option>
-          </button>
-          <button onClick={() => onSiteOption()} className="mt-3">
-            <Option>on-site option</Option>
-          </button>
+          <Option onClick={() => remoteOption()}>remote option</Option>
+
+          <Option onClick={() => onSiteOption()}>on-site option</Option>
         </Select>
       </div>
       <div className="md:mt-36 mb-10">
