@@ -7,6 +7,7 @@ import Header from './components/Home/Header';
 import SectionHome from './components/Home/SectionHome';
 import ViewDetails from './components/View_Details/ViewDetails';
 import AppliedJobs from './components/Applied-Jobs/AppliedJobs';
+import AssinStatistics from './components/Statistics/AssinStatistics';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
         element: <AppliedJobs></AppliedJobs>,
         // loader: ({ params }) => fetch(`/featured-jobs.json`),
       },
+      {
+        path: "/Statistics",
+       element: <AssinStatistics></AssinStatistics>
+      }
     ],
   },
 ]);

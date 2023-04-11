@@ -37,9 +37,9 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center font-style">
+        <NavLink to="/Statistics" className="flex items-center font-style">
           Statistics
-        </a>
+        </NavLink>
       </Typography>
       <Typography
         as="li"
