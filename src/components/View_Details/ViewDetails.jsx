@@ -26,10 +26,12 @@ const {
   contact_information,
 } = result;
     return (
-      <div className="side-container">
+      <>
         <Banner></Banner>
-        <h1>{job_title}</h1>
-      </div>
+        <div className="side-container">
+          <h1>{job_title}</h1>
+        </div>
+      </>
     );
 };
 
