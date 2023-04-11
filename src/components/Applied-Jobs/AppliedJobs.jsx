@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getShoppingCart } from "../utilities/fakedb";
 import ShowAppliedJobs from "./ShowAppliedJobs";
@@ -7,26 +7,47 @@ import Bannerrr from "../CommonBanar/Bannerrr";
 import { Select, Option } from "@material-tailwind/react";
 
 const AppliedJobs = () => {
-  const appliedJobs = useLoaderData();
-  const jobApplied = appliedJobs.jobs;
+  const [jobs, setJobs] = useState([]);
+  const [filteredJobs, setFilteredJobs] = useState([]);
+
+  useEffect(() => {
+    fetch("featured-jobs.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setJobs(data.jobs);
+        setFilteredJobs(data.jobs);
+      });
+  }, []);
+
+  const remoteOption = () => {
+    const filtered = jobs.filter((job) => job.remote_or_onsite === "Remote");
+    setFilteredJobs(filtered);
+  };
+
+  const onSiteOption = () => {
+    const filtered = jobs.filter((job) => job.remote_or_onsite !== "Remote");
+    setFilteredJobs(filtered);
+  };
+
   const localStoragefakeDBid = getShoppingCart();
 
   const appliedJobes = Object.keys(localStoragefakeDBid).map((key) => {
     const idAsNumber = parseInt(key);
-    const showAppliedJobs = jobApplied.filter((job) => job.id === idAsNumber);
+    const showAppliedJobs = filteredJobs.filter((job) => job.id === idAsNumber);
     return showAppliedJobs;
   });
 
+  // -----------------------------------
   return (
     <div>
       <Bannerrr></Bannerrr>
 
       <div className="w-72 absolute right-96">
         <Select className="" label="Filter By">
-          <button className="ms-2 me-3">
+          <button onClick={() => remoteOption()} className="ms-2 me-3">
             <Option>remote option</Option>
           </button>
-          <button className="mt-3">
+          <button onClick={() => onSiteOption()} className="mt-3">
             <Option>on-site option</Option>
           </button>
         </Select>
