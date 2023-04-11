@@ -1,6 +1,7 @@
 import React from 'react';
 import Lottie from "lottie-react";
 import groovyWalkAnimation from "./../../assets/94056-development.json";
+import { Link } from 'react-router-dom';
 const Header = () => {
     return (
       <div className=" md:grid grid-cols-2 side-container  ">
@@ -15,9 +16,11 @@ const Header = () => {
             Keep learning and growing, seek mentors and supporters for guidance
             and encouragement, and stay focused on your vision.
           </p>
-          <button className="customs-button ">Get Started</button>
+          <Link to={"/"}>
+            <button className="customs-button ">Get Started</button>
+          </Link>
         </div>
-        <div className='md:mt-24 md:ms-14 col-span-1 '>
+        <div className="md:mt-24 md:ms-14 col-span-1 ">
           <Lottie
             className="md:-mt-44 h-fit"
             animationData={groovyWalkAnimation}

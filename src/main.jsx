@@ -9,6 +9,7 @@ import ViewDetails from './components/View_Details/ViewDetails';
 import AppliedJobs from './components/Applied-Jobs/AppliedJobs';
 import AssinStatistics from './components/Statistics/AssinStatistics';
 import FaqComponent from './components/FaqComponent/FaqComponent';
+import Not404 from './components/NOT404/Not404';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
         path: "Blog",
         element: <FaqComponent></FaqComponent>,
       },
+      {
+        path:"*",
+        element:<Not404></Not404>
+      }
     ],
   },
 ]);
