@@ -1,9 +1,10 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { Link, NavLink, useLoaderData, useParams } from 'react-router-dom';
 import Banner from '../CommonBanar/Banner';
 import { Button } from "@material-tailwind/react";
+import { addToDb } from '../utilities/fakedb';
 const ViewDetails = () => {
- const featuredJobs = useLoaderData();
+const featuredJobs = useLoaderData();
 const job = featuredJobs.jobs
 //  console.log(job);
 // ----------
@@ -11,7 +12,7 @@ const job = featuredJobs.jobs
  const idAsNumber = parseInt(id);
   const result = job.find((job) => job.id === idAsNumber);
 //   -------
-const {
+const { 
   company_logo,
   job_title,
   company_name,
@@ -25,6 +26,13 @@ const {
   experiences,
   contact_information,
 } = result;
+
+const applyNowOnClick = (id)=>{
+    addToDb(id)
+    
+
+}
+
     return (
       <>
         <Banner></Banner>
@@ -81,13 +89,14 @@ const {
               </div>
             </div>
             {/* bnt-------- */}
-            <Button
-              variant="gradient"
-              size="lg"
-              className=" mt-5 w-full btn-clr lg:inline-block"
-            >
-              <span className="font-style">Apply Now</span>
-            </Button>
+              <Button onClick={()=> applyNowOnClick(id) }
+                variant="gradient"
+                size="lg"
+                className=" mb-5 mt-5 w-full btn-clr lg:inline-block"
+              >
+                <span className="font-style">Apply Now</span>
+              </Button>
+            
           </div>
         </div>
       </>

@@ -4,8 +4,6 @@ import {
   Button
 } from "@material-tailwind/react";
 const Featured_Jobs = () => {
-
-
        const [jobs, setJobs] = useState([]);
        useEffect(() => {
          fetch("featured-jobs.json")

@@ -47,9 +47,9 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center font-style">
+        <NavLink to="/AppliedJobs" className="flex items-center font-style">
           Applied Jobs
-        </a>
+        </NavLink>
       </Typography>
       <Typography
         as="li"
