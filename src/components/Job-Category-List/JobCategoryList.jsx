@@ -9,7 +9,7 @@ const JobCategoryList = () => {
     }, []);
 // console.log(list);
     return (
-      <div className="side-container md:mt-32 mt-10 mb-32">
+      <div className="side-container ms-5 me-3 md:mt-32 mt-10 mb-16 md:mb-32">
         <h1 className="text-center mb-2 text-5xl	 font-bold">
           Job Category List
         </h1>
@@ -17,14 +17,14 @@ const JobCategoryList = () => {
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>
-        <div className="md:flex  items-center   justify-between mt-8">
+        <div className="md:flex  items-center  justify-between mt-8">
           {list.map((categorie, idx) => (
             <div
               className=" flex flex-col items-center  me-5 justify-center  hover:bg-indigo-50 card-style-short pb-5 py-3 px-10 "
               key={idx}
             >
               <img
-                className="h-28 mt-8 short-cart py-3 mb-5 px-3"
+                className="h-36 mt-8 short-cart py-3 mb-5 px-3"
                 src={categorie.logo}
                 alt=""
               />

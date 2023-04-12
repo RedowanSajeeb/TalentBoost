@@ -42,7 +42,7 @@ const AppliedJobs = () => {
     <div>
       <Bannerrr></Bannerrr>
 
-      <div className="w-72 absolute right-96">
+      <div className="md:w-72 mb-10 absolute right-6 md:right-96">
         <Select className="" label="Filter By">
           <Option onClick={() => remoteOption()}>remote option</Option>
 

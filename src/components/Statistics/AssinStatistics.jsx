@@ -66,8 +66,8 @@ import {
     
 const AssinStatistics = () => {
     return (
-      <div className="side-container">
-        <h1 className='text-2xl md:ms-10'>Assignment Analytics</h1>
+      <div className="side-container overflow-hidden">
+        <h1 className='text-2xl mt-10 md:ms-10'>Assignment Analytics</h1>
         <div style={{ width: "100%", height: 300 }}>
           <ResponsiveContainer>
             <ComposedChart

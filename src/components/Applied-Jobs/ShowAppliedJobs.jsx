@@ -8,7 +8,7 @@ const ShowAppliedJobs = ({ job }) => {
     <div className="side-container ">
       {job.map((j) => (
         <div
-          className="md:flex border rounded p-5 mb-6 justify-between  items-center"
+          className="md:flex border mt-20 rounded p-5 mb-6 justify-between  items-center"
           key={j.id}
         >
           <div className="photo-card p-5  md:p-10 mb-3">

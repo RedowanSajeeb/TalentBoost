@@ -36,7 +36,7 @@ const applyNowOnClick = (id)=>{
     return (
       <>
         <Banner></Banner>
-        <div className="side-container md:grid grid-cols-2 md:mt-32 ">
+        <div className="side-container ms-5 me-3 mt-5 md:grid grid-cols-2 md:mt-32 ">
           <div>
             <h3 className="mb-6">
               <span className="font-black text-base">Job Description:</span>{" "}
@@ -59,7 +59,7 @@ const applyNowOnClick = (id)=>{
             </h3>
           </div>
           {/* Job Details-card */}
-          <div className="md:w-96   md:ms-10 ">
+          <div className="md:w-96 mt-5  md:ms-10 ">
             <div className="colorbg-Linear rounded-md py-7 px-7">
               <h2 className="text-xl font-bold mb-6">Job Details</h2>{" "}
               <hr className='border border-indigo-100' />
