@@ -33,7 +33,7 @@ const Jobs_card = ({ job}) => {
     return (
       <div className="border rounded-lg m-6">
         <div className="p-10 ">
-          <img className="h-10" src={company_logo} alt="" />
+          <img className="h-28" src={company_logo} alt="" />
           <h3 className="font-bold text-2xl mt-3.5">{job_title}</h3>
           <h4 className="dark-color text-xl mt-2">{company_name}</h4>
           <div className="flex justify-start gap-3 mt-4 ">

@@ -27,12 +27,25 @@ const ShowAppliedJobs = ({ job }) => {
               </h3>
             </div>
             <div className="mt-4 flex dark-color gap-4">
-              <p> {j.location}</p>
-              <p>{j.salary}</p>
+              <p className="flex">
+                {" "}
+                <img className="me-1"
+                  src="https://lh3.googleusercontent.com/yfVMFmY5Cs_xR7PsZviISQrdgCndkE0ZfsWzNznjSlx6xDWGalCTIXenw5nwjug8zkMf7NqfpxfJg2YtQq73eiP2Z2s5Oq1Ll1Rm77Wh"
+                  alt=""
+                />
+                {j.location}
+              </p>
+              <p className="flex">
+                <img className="me-1"
+                  src="https://lh3.googleusercontent.com/_rE0cS_0WENBmLUSx4fdNUdq94ioHVs5rXaIw9IVnTR7KF6FQlfU-SkeabXu0IslWxyW5d45ZKO76L9pROkt9LeLO49U9FWKTT4-N4vq"
+                  alt=""
+                />
+                {j.salary}
+              </p>
             </div>
           </div>
           {/* ------------------------------- */}
-          <div className="md:me-52">
+          <div className="">
             {job.map((j) => (
               <div key={j.id}>
                 <Link to={`/ViewDetails/${j.id}`}>

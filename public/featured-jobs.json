@@ -2,10 +2,10 @@
   "jobs": [
     {
       "id": 1,
-      "company_logo": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1509749891/uoobxv6izqaedbxbnsyc.jpg",
+      "company_logo": "https://lever-client-logos.s3.us-west-2.amazonaws.com/195fc953-f9d5-4ade-8b75-b14e4c47f4da-1642024743005.png",
       "job_title": "Software Engineer",
-      "company_name": "ABC Inc.",
-      "remote_or_onsite": "Onsite",
+      "company_name": "Sonatus",
+      "remote_or_onsite": "Remote",
       "location": "San Francisco",
       "fulltime_or_parttime": "Full-time",
       "salary": "$100,000 - $120,000",
@@ -15,14 +15,14 @@
       "experiences": "At least 5 years of experience in software development, proficient in one or more programming languages such as Java, Python, or Ruby.",
       "contact_information": {
         "phone": "555-1234",
-        "email": "jobs@abcinc.com"
+        "email": "jobs@maxon.com"
       }
     },
     {
       "id": 2,
-      "company_logo": "https://scontent.fdac13-1.fna.fbcdn.net/v/t39.30808-6/280306310_1998298977033325_3767324640430486035_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFe39xn6b35G27MKDM_IBZMlKZxc8W2-3yUpnFzxbb7fKT_8QZ1Lg0qsyD6ObkYTa05gDHz20tOA_XAizJhFPMz&_nc_ohc=D_w_R9SCiMcAX_16lPW&_nc_ht=scontent.fdac13-1.fna&oh=00_AfCK8Jm8G-dTvGxX3ltblseANUfh4IjrkLCswRGwo25hXw&oe=64382F3B",
+      "company_logo": "https://s3.amazonaws.com/info-mongodb-com/_com_assets/partners/oxa_logo_new_0.png",
       "job_title": "Data Analyst",
-      "company_name": "123 Corporation",
+      "company_name": "Oxagile",
       "remote_or_onsite": "Onsite",
       "location": "San Francisco, CA",
       "fulltime_or_parttime": "Fulltime",
@@ -33,15 +33,15 @@
       "experiences": "2+ years of experience in data analysis",
       "contact_information": {
         "phone": "555-123-4567",
-        "email": "jobs@123corp.com"
+        "email": "jobs@Oxagile.com"
       }
     },
     {
       "id": 3,
       "company_logo": "https://i.pinimg.com/originals/46/c5/d8/46c5d8630eb4135dd94a82b39bcf0c6c.gif",
       "job_title": "Android App Developer",
-      "company_name": "ABC Corp.",
-      "remote_or_onsite": "Onsite",
+      "company_name": "Candy App",
+      "remote_or_onsite": "Remote",
       "location": "San Francisco",
       "fulltime_or_parttime": "Full-time",
       "salary": "$90,000 - $110,000",
@@ -51,14 +51,14 @@
       "experiences": "3+ years of experience in Android app development",
       "contact_information": {
         "phone": "555-5678",
-        "email": "jobs@abccorp.com"
+        "email": "jobs@candyApp.com"
       }
     },
     {
       "id": 4,
-      "company_logo": "https://d10d02tod5sfve.cloudfront.net/poster-photo/2678875-1843774-1674605671064.png",
+      "company_logo": "https://media.glassdoor.com/sql/11159/salesforce-com-squarelogo-1413910133565.png",
       "job_title": "Marketing Coordinator",
-      "company_name": "ABC Inc.",
+      "company_name": "Salesforce",
       "remote_or_onsite": "Onsite",
       "location": "New York City",
       "fulltime_or_parttime": "Full-time",
