@@ -44,8 +44,8 @@ const Jobs_card = ({ job}) => {
               {fulltime_or_parttime}
             </h3>
           </div>
-          <div className="mt-4 flex  items-center dark-color gap-4">
-            <div className="flex items-center">
+          <div className="mt-4 md:flex  items-center dark-color gap-4">
+            <div className="flex  items-center">
               <img
                 src="https://lh3.googleusercontent.com/yfVMFmY5Cs_xR7PsZviISQrdgCndkE0ZfsWzNznjSlx6xDWGalCTIXenw5nwjug8zkMf7NqfpxfJg2YtQq73eiP2Z2s5Oq1Ll1Rm77Wh"
                 alt=""
