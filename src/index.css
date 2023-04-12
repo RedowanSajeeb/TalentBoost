@@ -64,6 +64,12 @@
 .dark-color{
 color: #757575;
 }
+.photo-card{
+background-color: #F4F4F4;
+border-radius: 8px;
+width: 240px;
+height: 240px;
+}
 
 
 /* On screens that are 992px or less, set the background color to blue */
