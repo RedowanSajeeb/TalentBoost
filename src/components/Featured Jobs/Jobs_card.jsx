@@ -31,16 +31,20 @@ const Jobs_card = ({ job}) => {
     // console.log(job_title);
 
     return (
-      <div className="border rounded-lg gap-10 m-6">
-        <div className="ms-5 py-5 ">
+      <div className="border rounded-lg m-6">
+        <div className="p-10 ">
           <img className="h-10" src={company_logo} alt="" />
-          <h3>{job_title}</h3>
-          <h4>{company_name}</h4>
-          <div>
-            <h3>{remote_or_onsite}</h3>
-            <h3>{fulltime_or_parttime}</h3>
+          <h3 className="font-bold text-2xl mt-3.5">{job_title}</h3>
+          <h4 className="dark-color text-xl mt-2">{company_name}</h4>
+          <div className="flex justify-start gap-3 mt-4 ">
+            <h3 className=" text-indigo-800	 border border-indigo-500 w-20 text-center rounded">
+              {remote_or_onsite}
+            </h3>
+            <h3 className=" text-indigo-800	 border border-indigo-500 w-20 text-center rounded">
+              {fulltime_or_parttime}
+            </h3>
           </div>
-          <div>
+          <div className="mt-4 flex dark-color gap-4">
             <div>
               <img src="" alt="" />
               <h3>{location}</h3>
@@ -55,7 +59,7 @@ const Jobs_card = ({ job}) => {
             <Button
               variant="gradient"
               size="sm"
-              className=" mt-3 btn-clr lg:inline-block"
+              className=" mt-6 btn-clr lg:inline-block"
             >
               <span className="font-style">View Details</span>
             </Button>

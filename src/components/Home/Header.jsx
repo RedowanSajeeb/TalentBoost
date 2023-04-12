@@ -10,7 +10,7 @@ const Header = () => {
             Moving Closer To Your{" "}
             <span className="span font-style">Dream Job</span>
           </h1>
-          <p className="font-style mt-5 mb-5 w">
+          <p className="font-style mt-5 mb-5  dark-color">
             Persistence, hard work, and dedication are often necessary to land
             your dream job. Don't let setbacks or rejections discourage you.
             Keep learning and growing, seek mentors and supporters for guidance

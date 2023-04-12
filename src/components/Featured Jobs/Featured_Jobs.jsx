@@ -22,8 +22,8 @@ const seeAllJobsButton =() =>{
 
     return (
       <div className="side-container">
-        <h1 className="text-center mb-2 text-3xl font-bold">Featured Jobs</h1>
-        <h6 className="text-center mb-5">
+        <h1 className="text-center mb-2 text-5xl font-bold">Featured Jobs</h1>
+        <h6 className="text-center text-base dark-color mb-5">
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </h6>

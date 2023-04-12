@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.font-style {
+/* .font-style {
   font-family: "Manrope", sans-serif;
-}
+} */
 .colorbg-Linear {
   background: linear-gradient(
     90deg,
@@ -61,6 +61,10 @@
 .txt-color{
   color: rgba(255, 255, 255, 0.7);
 }
+.dark-color{
+color: #757575;
+}
+
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (min-width: 1280px) {

@@ -10,10 +10,10 @@ const JobCategoryList = () => {
 // console.log(list);
     return (
       <div className="side-container md:mt-32 mt-10 mb-32">
-        <h1 className="text-center mb-2 text-3xl font-bold">
+        <h1 className="text-center mb-2 text-5xl	 font-bold">
           Job Category List
         </h1>
-        <p className="text-center mb-10">
+        <p className="text-center text-base mb-10 dark-color">
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>
@@ -28,8 +28,10 @@ const JobCategoryList = () => {
                 src={categorie.logo}
                 alt=""
               />
-              <h1>{categorie.name}</h1>
-              <h4>Jobs Available {categorie.jobs_available}</h4>
+              <h1 className="font-bold text-lg">{categorie.name}</h1>
+              <h4 className="dark-color text-base	">
+                Jobs Available {categorie.jobs_available}
+              </h4>
             </div>
           ))}
         </div>
