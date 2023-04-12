@@ -38,65 +38,87 @@ const applyNowOnClick = (id)=>{
         <Banner></Banner>
         <div className="side-container md:grid grid-cols-2 md:mt-32 ">
           <div>
-            <h3>
-              <span>Job Description:</span> {job_description}
+            <h3 className="mb-6">
+              <span className="font-black text-base">Job Description:</span>{" "}
+              <span className="dark-color"> {job_description}</span>
             </h3>
-            <h3>
-              <span>Job Responsibility:</span> {job_responsibility}
+            <h3 className="mb-6">
+              <span className="font-black text-base">Job Responsibility:</span>{" "}
+              <span className="dark-color">{job_responsibility}</span>
             </h3>
-            <h3>
-              <span>Educational Requirements: </span> <br />{" "}
-              {educational_requirements}
+            <h3 className="mb-6">
+              <span className="font-black text-base">
+                Educational Requirements:{" "}
+              </span>{" "}
+              <br />{" "}
+              <span className="dark-color">{educational_requirements}</span>
             </h3>
-            <h3>
-              <span>Experiences: </span> <br /> {experiences}
+            <h3 className="mb-6">
+              <span className="font-black text-base">Experiences: </span> <br />{" "}
+              <span className="dark-color">{experiences}</span>
             </h3>
           </div>
           {/* Job Details-card */}
           <div className="md:w-96   md:ms-10 ">
             <div className="colorbg-Linear rounded-md py-7 px-7">
-              <h2>Job Details</h2> <hr />
-              <div>
+              <h2 className="text-xl font-bold mb-6">Job Details</h2>{" "}
+              <hr className='border border-indigo-100' />
+              <div className="mt-6">
                 <img src="" alt="" />
-                <h2>
-                  <span>Salary : </span> {salary}
+                <h2 className="mb-3">
+                  <span className="text-base font-black">Salary : </span>{" "}
+                  <span className="dark-color">{salary}</span>
                 </h2>
               </div>
               <div>
                 <img src="" alt="" />
-                <h2>
-                  <span>Job Title : </span> {job_title}
+                <h2 className="mb-3">
+                  <span className="text-base font-black">Job Title : </span>{" "}
+                  <span className="dark-color">{job_title}</span>
                 </h2>
               </div>
-              <h2>Contact Information</h2> <hr />
-              <div>
+              <h2 className="text-xl font-bold mb-6">Contact Information</h2>{" "}
+              <hr className="border border-indigo-100" />
+              <div className="mt-6">
                 <img src="" alt="" />
-                <h2>
-                  <span>Phone : {contact_information.phone}</span>
+                <h2 className="mb-3">
+                  <span className="text-base font-black">
+                    Phone :{" "}
+                    <span className="dark-color">
+                      {contact_information.phone}
+                    </span>
+                  </span>
                 </h2>
               </div>
               <div>
                 <img src="" alt="" />
-                <h2>
-                  <span>Email : {contact_information.email}</span>
+                <h2 className="mb-3">
+                  <span className="text-base font-black">
+                    Email :{" "}
+                    <span className="dark-color">
+                      {contact_information.email}
+                    </span>
+                  </span>
                 </h2>
               </div>
               <div>
                 <img src="" alt="" />
-                <h2>
-                  <span>Address : {location}</span>
+                <h2 className="mb-3">
+                  <span span className="text-base font-black">
+                    Address : <span className="dark-color">{location}</span>
+                  </span>
                 </h2>
               </div>
             </div>
             {/* bnt-------- */}
-              <Button onClick={()=> applyNowOnClick(id) }
-                variant="gradient"
-                size="lg"
-                className=" mb-5 mt-5 w-full btn-clr lg:inline-block"
-              >
-                <span className="font-style">Apply Now</span>
-              </Button>
-            
+            <Button
+              onClick={() => applyNowOnClick(id)}
+              variant="gradient"
+              size="lg"
+              className=" mb-5 mt-5 w-full btn-clr lg:inline-block"
+            >
+              <span className="font-style">Apply Now</span>
+            </Button>
           </div>
         </div>
       </>

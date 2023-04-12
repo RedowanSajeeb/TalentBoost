@@ -9,7 +9,7 @@ const Banner = () => {
             src="https://lh3.googleusercontent.com/Znk-7PZrbMLQ3tzLwGzal2vI4h7jv8_kitJngBfNuAUjdgwE2loEWBrQ-FJvxYXTKThqnX2ZlWcI0SuC1Iq4oX5GT0lBQO5Btvk7KLo"
             alt=""
           />
-          Job Details
+          <h1>Job Details</h1>
           <img
             src="https://lh3.googleusercontent.com/0qlp7KXjZBNR2w8pduIMPzjYgrGApRynnzeCWq8Frz2OMfKR6zoQcv82qWel5y8HqwPQKU59sxN1Eos89dweif_EajEUReMqZeNYhKjNEw"
             alt=""
